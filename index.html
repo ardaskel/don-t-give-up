@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>Don't give up</title>
+  <link rel = "stylesheet" href = "css/bootstrap.css">
+  <style>
+    li input {
+      display:none;
+    }
+  li.edit span{
+    display:none;
+  }
+  li.edit input{
+    display: initial;
+  }
+  </style>
+
+  </head>
+  <body>
+    <div class = "container">
+      <div class = "jumbotron">
+      <h4> Grafiki </h4>
+
+      <ul>
+          <li><a data-img = "pierwszy-pic" id = "pierwszy" href = "#">
+            Pierwsza grafika</a></li>
+          <li><a data-img = "drugi-pic" id = "drugi" href = "#">
+              Druga grafika</a></li>
+          <li><a data-img = "trzeci-pic" id = "trzeci" href = "#">
+                Trzecia grafika</a></li>
+
+
+          <img class = "hide" id="pierwszy-pic" src = "img/004.jpg">
+          <img class = "hide" id="drugi-pic" src = "img/006.jpg">
+          <img class = "hide" id="trzeci-pic" src = "img/007.jpg">
+
+      </ul>
+    </div>
+
+      <ul id="checklist">
+        <li>
+          <span>Apples</span>
+          <input value = "Apples"/>
+        </li>
+
+        <li>
+          <span>Apples</span>
+          <input value = "Apples"/>
+        </li>
+
+        <li>
+          <span>Apples</span>
+          <input value = "Apples"/>
+        </li>
+
+      </ul>
+
+
+
+
+
+
+  </div>
+
+
+
+
+    <script src = "js/jquery.js"></script>
+    <script src = "js/bootstrap.js"></script>
+   <script src = "js/main.js"></script>
+
+  </body>
+
+</html>
